@@ -1,5 +1,5 @@
 <p align="center">
-      <img style="width:150px; height: 150px;"  src="https://telegra.ph/file/7947e88a6488972b46bd0.jpg"></p>
+      <img style="width:160px; height: 160px;"  src="https://telegra.ph/file/7947e88a6488972b46bd0.jpg"></p>
 <h1 align="center"><b>🔱 Brahmastra 🔱</b></h1>
 <!-- <h2 align="center"><b>A FontStyle applyer made to add fontstyle by just putting class name in class tag </b></h2> -->
 <h3 align="center">A FontStyle applyer made to add fontstyle by just putting class name in class tag </h3>
@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/github/issues/InducedOfficial/Brahmastra?style=for-the-badge&logo=appveyor" alt="Issues">
     <img src="https://img.shields.io/github/forks/InducedOfficial/Brahmastra?style=for-the-badge&logo=appveyor" alt="Forks">
     <img src="https://img.shields.io/github/stars/InducedOfficial/Brahmastra?style=for-the-badge&logo=appveyor" alt="Stars">
-    <img src="https://img.shields.io/badge/Maintained-Yes-yellow.svg" alt="Maintained">
+    <img src="https://img.shields.io/endpoint?color=yellow&label=Maintained&logo=Yes&logoColor=yellow&style=for-the-badge&url=https%3A%2F%2F392891a9-fa5d-4e21-a4c0-86097d8ab2c2.mock.pstmn.io%2Fbadge" alt="Maintained">
 </p>
 
 ### Import Brahmastra:
@@ -26,15 +26,15 @@
 <div class="brahmastra-Roboto">Welcome to Brahmastra</div>
 ```
 
-## Documentation
+## 📃Documentation
 
-General documentation, use cases, quick start, Comming Soon
+General documentation, use cases, quick start, Comming Soon 😀
 
-## Ask a question
+## Ask a question❓
 
 If you have any questions about Brahmastra, feel free to open an issue or ask directly in our Issue Section.
-
-## 👨‍💻 Our valuable Contributors
+<br>
+## Our valuable Contributors👨‍💻 
 
 ![Contributors](https://contrib.rocks/image?repo=InducedOfficial/Brahmastra)
 
@@ -46,5 +46,5 @@ If you have any questions about Brahmastra, feel free to open an issue or ask di
 
 ## 💰 Support Me
 
-<a href="https://ko-fi.com/xditya" class="padded"><img height="30" style="border:0px;height:30px;" align="left" alt="xditya" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0" /></a>
-<a href="https://www.paypal.me/xditya7" class="padded"><img height="30" style="border:0px;height:30px;" align="centre" alt="xditya" src="https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg" /></a>
+<a href="" class="padded"><img height="30" style="border:0px;height:30px;" align="left" alt="Ishan" src="https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0" /></a>
+<a href="" class="padded"><img height="30" style="border:0px;height:30px;" align="centre" alt="Yakshit" src="https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg" /></a>
