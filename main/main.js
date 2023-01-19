@@ -43,7 +43,7 @@ const head = document.getElementsByTagName("HEAD")[0];
               link.rel = "stylesheet";
               link.href = `https://fonts.googleapis.com/css2?family=${font1}&display=swap`;
               head.appendChild(link);
-              console.log(link);
+              
             }
             singleClass.style.fontFamily = font1.replaceAll("+", " ");
             singleClass.style.fontSize = (fontsize || "16") + "px";
