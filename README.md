@@ -16,7 +16,7 @@
 
 ### Import Brahmastra:
 ```html
- <script src="https://cdn.jsdelivr.net/gh/InducedOfficial/Brahmastra/main/main.js" ></script>
+ <script src="https://cdn.jsdelivr.net/gh/YAKSHIT-22/Brahmastra@main/main/main.js" ></script>
 ```
 
 ### How to apply
