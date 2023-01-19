@@ -1,5 +1,4 @@
- var x = document.getElementsByTagName("HEAD")[0];
-
+const head = document.getElementsByTagName("HEAD")[0];
     const tag = [
       "a",
       "p",
