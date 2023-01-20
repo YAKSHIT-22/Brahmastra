@@ -9,8 +9,7 @@ export default function Landing() {
     setClassName((prevState) => ({
       ...prevState,
       name: e.target.value,
-    }));
-    
+    }));    
   }
   return (
     <React.Fragment>
