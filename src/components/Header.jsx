@@ -17,7 +17,7 @@ export default function Header() {
             </div></Link>
             <div className="flex flex-row gap-2 items-center justify-center p-2 sm:mr-4">
               <div className="flex items-center justify-center p-2 flex-row gap-6" onClick={() => {
-            navigator.clipboard.writeText("https://cdn.jsdelivr.net/gh/InducedOfficial/Brahmastra/main/main.js");
+            navigator.clipboard.writeText("https://cdn.jsdelivr.net/gh/YAKSHIT-22/Brahmastra@main/main/main2.js");
             setShareLinkCopied(true);
             setTimeout(() => {
               setShareLinkCopied(false);
