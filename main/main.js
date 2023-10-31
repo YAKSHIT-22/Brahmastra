@@ -48,7 +48,7 @@ function loadDynamicFonts() {
         singleClass.style.fontSize = (fontsize || "16") + "px";
       }
     }
-  }
+  })
 }
 
 
