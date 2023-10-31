@@ -16,7 +16,7 @@ export default function Landing() {
     if (window.loadDynamicFonts) {
       window.loadDynamicFonts();
     }
-  }, []);
+  }, [className]);
   return (
     <React.Fragment>
       <div className="absolute inset-x-0 bg-grid-slate-900/[0.04] bg-[bottom_1px_center] bg-grid-slate-400/[0.05] bg-bottom dark:border-b border-slate-100/5 [mask-image:linear-gradient(to bottom, transparent, black)]"></div>
