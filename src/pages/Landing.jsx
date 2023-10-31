@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 
 export default function Landing() {
   const [className, setClassName] = React.useState({
@@ -11,6 +11,12 @@ export default function Landing() {
       name: e.target.value,
     }));    
   }
+  useEffect(() => {
+    // Call the function from the CDN script to load/update fonts
+    if (window.loadDynamicFonts) {
+      window.loadDynamicFonts();
+    }
+  }, []);
   return (
     <React.Fragment>
       <div className="absolute inset-x-0 bg-grid-slate-900/[0.04] bg-[bottom_1px_center] bg-grid-slate-400/[0.05] bg-bottom dark:border-b border-slate-100/5 [mask-image:linear-gradient(to bottom, transparent, black)]"></div>
