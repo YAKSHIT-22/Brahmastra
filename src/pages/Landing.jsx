@@ -144,7 +144,6 @@ export default function Landing() {
         </div>
       </section>
       <section className="w-screen h-full p-2 md:p-2 mb-4">
-        <div className="flex w-full h-full items-center justify-center flex-col gap-[3rem]">
         <div className="max-w-6xl mx-auto pt-4 sm:pt-6 lg:pt-8 flex items-center justify-center flex-col gap-[2rem]">
           <h1 className="font-extrabold p-4 text-3xl sm:text-4xl lg:text-5xl tracking-tight text-center text-white ">
             1. React Usage
@@ -159,7 +158,7 @@ export default function Landing() {
               In the React project, include the Dynamic Font Loader script in the HTML file (public/index.html). Ensure the script tag is placed in the <span className="text-[#ca619b]"> &lt;head&gt;</span> section or just before the closing <span className="text-[#ca619b]"> &lt;/body&gt;</span> tag.
               </p>
               </div> 
-              <SyntaxHighlighter language="javascript" style={vscDarkPlus} className="!bg-inherit border-[.1px] border-[#1c3e60] w-full md:w-[50%] h-full rounded-md scroll-remove">
+              <SyntaxHighlighter language="javascript" style={vscDarkPlus} className="!bg-inherit border-[.1px] w-full md:w-[50%] border-[#1c3e60] h-full rounded-md scroll-remove">
                 {codeString}
               </SyntaxHighlighter>
             </div>
@@ -174,7 +173,7 @@ export default function Landing() {
               In this React code snippet, we demonstrate how to integrate and apply dynamic fonts in a React application. The useEffect hook is employed to call a function from an external CDN-hosted script, which dynamically loads and updates fonts on component mounting.<br/> <span className="text-[#ca619b]">To always run the script on re-render use the useEffect without dependency array.</span>
               </p>
               </div> 
-              <SyntaxHighlighter language="javascript" style={vscDarkPlus} className="!bg-inherit border-[.1px] border-[#1c3e60] w-full md:w-[50%] h-full rounded-md scroll-remove">
+              <SyntaxHighlighter language="javascript" style={vscDarkPlus} className="!bg-inherit border-[.1px] w-full md:w-[50%] border-[#1c3e60]  h-full rounded-md scroll-remove">
                 {codeString1}
               </SyntaxHighlighter>
             </div>
@@ -192,10 +191,10 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        </div>
+      
       </section>
       <section className="w-screen h-full p-2 md:p-2 mb-4">
-        <div className="flex w-full h-full items-center justify-center flex-col gap-[3rem]">
+
         <div className="max-w-6xl mx-auto pt-4 sm:pt-6 lg:pt-8 flex items-center justify-center flex-col gap-[2rem]">
           <h1 className="font-extrabold p-4 text-3xl sm:text-4xl lg:text-5xl tracking-tight text-center text-white ">
             2. Native HTML CSS Usage
@@ -210,13 +209,13 @@ export default function Landing() {
               Create an HTML file and include the following structure. Add CDN link using script tag in <span className="text-[#ca619b]"> &lt;head&gt;</span> and call it in other script tag with load eventlistener to apply font changes on refresh or reload. Add the class name to the element you want to apply the font to and Done! 
               </p>
               </div> 
-              <SyntaxHighlighter language="javascript" style={vscDarkPlus} className="!bg-inherit border-[.1px] border-[#1c3e60] w-full md:w-[50%] h-full rounded-md scroll-remove">
+              <SyntaxHighlighter language="javascript" style={vscDarkPlus} className="!bg-inherit border-[.1px] w-full md:w-[50%] border-[#1c3e60] h-full rounded-md scroll-remove">
                 {codeString2}
               </SyntaxHighlighter>
             </div>
           </div>
         </div>
-        </div>
+      
       </section>
       <div className="absolute inset-x-0 bg-grid-slate-900/[0.04] bg-[bottom_1px_center] bg-grid-slate-400/[0.05] dark:border-b border-slate-100/5 [mask-image:linear-gradient(to top, transparent, black)]"></div>
     </>
