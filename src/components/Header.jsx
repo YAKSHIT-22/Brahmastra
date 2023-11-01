@@ -1,11 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.svg"
+import { toast } from "react-toastify";
 
 
 
 export default function Header() {
   const [shareLinkCopied, setShareLinkCopied] = React.useState(false);
+  useEffect(() => {
+    if (window.loadDynamicFonts) {
+      window.loadDynamicFonts();
+    }
+  });
+  useEffect(() => {
+    if (shareLinkCopied) {
+      toast.success("Link Copied to Clipboard!");
+    }
+  });
   return (
     <>
     <header className="flex  items-center justify-center  w-full h-full">
@@ -17,17 +28,12 @@ export default function Header() {
             </div></Link>
             <div className="flex flex-row gap-2 items-center justify-center p-2 sm:mr-4">
               <div className="flex items-center justify-center p-2 flex-row gap-6" onClick={() => {
-            navigator.clipboard.writeText("https://cdn.jsdelivr.net/gh/YAKSHIT-22/Brahmastra@main/main/main2.js");
+            navigator.clipboard.writeText("https://cdn.jsdelivr.net/gh/YAKSHIT-22/Brahmastra@main/main/main.js");
             setShareLinkCopied(true);
             setTimeout(() => {
               setShareLinkCopied(false);
             }, 2000);
           }}>
-             {shareLinkCopied && (
-          <div className="rounded-[2px]  w-24 h-12 bg-[#0c1d31] z-10 p-2 text-white text-xs border border-white brahmastra-Poppins top-24 right-12 flex items-center justify-center transition duration-150 ease-in-out">
-           <p>Link Copied!</p>
-          </div>
-        )}
                 <svg width="34" height="34" xmlns="http://www.w3.org/2000/svg">
                   <style>
                     {`.st1{fill:#bd483b}.st3{fill:#fec82f}.st4{fill:#df9c26}`}
