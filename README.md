@@ -16,7 +16,7 @@
 
 ### Import Brahmastra:
 ```html
- <script src="https://cdn.jsdelivr.net/gh/YAKSHIT-22/Brahmastra@main/main/main2.js" ></script>
+ <script src="https://cdn.jsdelivr.net/gh/YAKSHIT-22/Brahmastra@main/main/main.js" ></script>
 ```
 
 ### How to apply
@@ -34,9 +34,6 @@ General documentation, use cases, quick start, [Click Here](https://brahmastra-i
 
 If you have any questions about Brahmastra, feel free to open an issue or ask directly in our Issue Section.
 <br>
-## Our valuable Contributors👨‍💻 
-
-![Contributors](https://contrib.rocks/image?repo=InducedOfficial/Brahmastra)
 
 ## License
 <img style="width:70px; "  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/330px-MIT_logo.svg.png">
