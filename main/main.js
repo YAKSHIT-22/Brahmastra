@@ -41,18 +41,16 @@ function loadDynamicFonts() {
           fontslist.push(font1);
           let link = document.createElement("link");
           link.rel = "stylesheet";
-          link.href = `https://fonts.googleapis.com/css2?family=${font1}&display=swap`;
+          link.href = `https://fonts.googleapis.com/css2?family=${font1.replace(/ /g, "+")}&display=swap`;
           head.appendChild(link);
         }
-        singleClass.style.fontFamily = font1.replaceAll("+", " ");
+        singleClass.style.fontFamily = font1;
         singleClass.style.fontSize = (fontsize || "16") + "px";
       }
     }
-  })
+  });
 }
 
-
 loadDynamicFonts();
-
 
 window.loadDynamicFonts = loadDynamicFonts;
